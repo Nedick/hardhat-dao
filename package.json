@@ -1,0 +1,10 @@
+{
+  "name": "hardhat-dao",
+  "devDependencies": {
+    "@openzeppelin/contracts": "^4.7.1",
+    "hardhat": "^2.10.1",
+    "prettier": "^2.7.1",
+    "solhint": "^3.3.7",
+    "solhint-plugin-prettier": "^0.0.5"
+  }
+}
