@@ -14,10 +14,7 @@ const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY
 
 console.log(`RINKEBY_RPC_URL: ${RINKEBY_RPC_URL}`)
 console.log(`PRIVATE_KEY: ${PRIVATE_KEY}`)
-/** @type import('hardhat/config').HardhatUserConfig */
-// module.exports = {
-//   solidity: "0.8.9",
-// };
+
 const config: HardhatUserConfig = {
   defaultNetwork: "hardhat",
   networks: {
